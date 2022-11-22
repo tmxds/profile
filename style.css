@@ -1,0 +1,116 @@
+body {
+  background-color: #EDEBE9;
+  font-family: Inter, sans-serif;
+  color: #161412;
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.8em;
+  text-decoration-line: underline;
+  text-decoration-color: #F9BD24;
+  text-decoration-thickness: .5em;
+  text-underline-offset: -.333em;
+  text-decoration-skip-ink: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+h2 {
+  font-size: 1.4em;
+  text-decoration-line: underline;
+  text-decoration-color: #F9BD24;
+  text-decoration-thickness: .5em;
+  text-underline-offset: -.333em;
+  text-decoration-skip-ink: none;
+}
+
+a {
+  text-decoration: underline dotted;
+  color: #161412;
+}
+
+a:hover {
+  background-color: #F9BD24;
+}
+
+.icon {
+  text-decoration: none;
+  background-color: #F6F5F4;
+  padding: 0px;
+}
+
+.btn-yellow {
+  text-decoration: none;
+  color: white;
+  background-color: #161412;
+  padding: 10px 15px;
+  margin-block-end: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-yellow:hover {
+  background-color: #F9BD24;
+  color: #161412;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 15px 30px;
+  margin: 20px 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 5px;
+  font-size: 2em;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li > a:hover {
+  background-color: white;
+  color: #F9BD24;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
