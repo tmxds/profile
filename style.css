@@ -78,6 +78,10 @@ a:hover {
   margin: 20px 0px;
 }
 
+.icon {
+  background-color: white;
+}
+
 .list-inline > li {
   display: inline-block;
   padding: 0px 5px;
