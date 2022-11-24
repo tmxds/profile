@@ -90,6 +90,7 @@ a:hover {
 
 .list-inline > li > a:hover {
   color: #F9BD24;
+  background-color: white;
 }
 
 @media (max-width: 960px) {
