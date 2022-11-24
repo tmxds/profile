@@ -41,7 +41,6 @@ a:hover {
 
 .icon {
   text-decoration: none;
-  background-color: #F6F5F4;
   padding: 0px;
 }
 
@@ -78,10 +77,6 @@ a:hover {
   margin: 20px 0px;
 }
 
-a.icon {
-  background-color: white;
-}
-
 .list-inline > li {
   display: inline-block;
   padding: 0px 5px;
@@ -94,7 +89,6 @@ a.icon {
 }
 
 .list-inline > li > a:hover {
-  background-color: white;
   color: #F9BD24;
 }
 
